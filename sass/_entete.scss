@@ -1,0 +1,7 @@
+.entry .entry-title:before {
+    display: none;
+}
+
+h1:not(.site-title):before, h2:before{
+    display:none;
+}
