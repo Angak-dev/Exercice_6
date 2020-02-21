@@ -1,13 +1,7 @@
-.rayure{
-
-    background: repeating-linear-gradient(
-      45deg,
-      #606dbc,
-      #606dbc 10px,
-      #465298 10px,
-      #465298 20px
-        );
-    }
+.rayure-grise {
+    background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px, #eee 40px);
+  }
+  
 
     .premiereLettre::first-letter{
         color: lightblue;

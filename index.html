@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost/2020_veille/ -->
+<html lang="fr-FR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>Cours Veille – Git, Sass, Grid, Thème WP</title>
+<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="http://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="Cours Veille » Flux" href="http://localhost/2020_veille/feed/">
+<link rel="alternate" type="application/rss+xml" title="Cours Veille » Flux des commentaires" href="http://localhost/2020_veille/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Cours Veille » Le cours de veille Flux des commentaires" href="http://localhost/2020_veille/page-d-exemple/feed/">
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/2020_veille\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Cours Veille – Git, Sass, Grid, Thème WP_files/wp-emoji-release.min.js.téléchargement" type="text/javascript" defer=""></script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="dashicons-css" href="./Cours Veille – Git, Sass, Grid, Thème WP_files/dashicons.min.css" media="all">
+<link rel="stylesheet" id="admin-bar-css" href="./Cours Veille – Git, Sass, Grid, Thème WP_files/admin-bar.min.css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="./Cours Veille – Git, Sass, Grid, Thème WP_files/style.min.css" media="all">
+<link rel="stylesheet" id="wp-block-library-theme-css" href="./Cours Veille – Git, Sass, Grid, Thème WP_files/theme.min.css" media="all">
+<link rel="stylesheet" id="parent-style-css" href="./Cours Veille – Git, Sass, Grid, Thème WP_files/style.css" media="all">
+<link rel="stylesheet" id="google_web_fonts-css" href="./Cours Veille – Git, Sass, Grid, Thème WP_files/css" media="all">
+<link rel="stylesheet" id="twentynineteen-style-css" href="./Cours Veille – Git, Sass, Grid, Thème WP_files/style(1).css" media="all">
+<link rel="stylesheet" id="twentynineteen-print-style-css" href="./Cours Veille – Git, Sass, Grid, Thème WP_files/print.css" media="print">
+<link rel="https://api.w.org/" href="http://localhost/2020_veille/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/2020_veille/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/2020_veille/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.3.2">
+<link rel="canonical" href="http://localhost/2020_veille/">
+<link rel="shortlink" href="http://localhost/2020_veille/">
+<link rel="alternate" type="application/json+oembed" href="http://localhost/2020_veille/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2F2020_veille%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://localhost/2020_veille/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2F2020_veille%2F&amp;format=xml">
+<link rel="pingback" href="http://localhost/2020_veille/xmlrpc.php"><style media="print">#wpadminbar { display:none; }</style>
+	<style media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+	</head>
+
+<body class="home page-template-default page page-id-2 logged-in admin-bar wp-custom-logo wp-embed-responsive singular image-filters-enabled customize-support">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="http://localhost/2020_veille/#content">Aller au contenu</a>
+
+		<header id="masthead" class="site-header">
+
+			<div class="site-branding-container">
+				<div class="site-branding">
+
+			<div class="site-logo"><a href="http://localhost/2020_veille/" class="custom-logo-link" rel="home"><img width="190" height="190" src="./Cours Veille – Git, Sass, Grid, Thème WP_files/cropped-02-nature.jpg" class="custom-logo" alt="Cours Veille" srcset="http://localhost/2020_veille/wp-content/uploads/2020/02/cropped-02-nature.jpg 190w, http://localhost/2020_veille/wp-content/uploads/2020/02/cropped-02-nature-150x150.jpg 150w" sizes="(max-width: 190px) 100vw, 190px"></a></div>
+								<p class="site-title"><a href="http://localhost/2020_veille/" rel="home">Cours Veille</a></p>
+			
+				<p class="site-description">
+				Git, Sass, Grid, Thème WP			</p>
+				<nav id="site-navigation" class="main-navigation" aria-label="Menu supérieur">
+			<div class="menu-nav-container"><ul id="menu-nav" class="main-menu"><li id="menu-item-41" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-41"><a href="http://localhost/2020_veille" aria-current="page">Accueil</a></li>
+<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-42"><a href="http://localhost/2020_veille/" aria-current="page">Choix #1</a></li>
+<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://localhost/2020_veille/choix-2/">Choix #2</a></li>
+</ul></div>
+			<div class="main-menu-more">
+				<ul class="main-menu">
+					<li class="menu-item menu-item-has-children">
+						<button class="submenu-expand main-menu-more-toggle is-empty" tabindex="-1" aria-label="Plus" aria-haspopup="true" aria-expanded="false"><svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path fill="currentColor" fill-rule="nonzero" d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zM6 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm6 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm6 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path></g></svg>
+						</button>
+						<ul class="sub-menu hidden-links">
+							<li class="mobile-parent-nav-menu-item">
+								<button class="menu-item-link-return"><svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg>Retour
+								</button>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>		</nav><!-- #site-navigation -->
+		</div><!-- .site-branding -->
+			</div><!-- .site-branding-container -->
+
+					</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+			
+<article id="post-2" class="post-2 page type-page status-publish hentry entry">
+		<header class="entry-header">
+		
+<h1 class="entry-title">Le cours de veille</h1>
+	</header>
+	
+	<div class="entry-content">
+		
+<figure class="wp-block-gallery columns-2 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="./Cours Veille – Git, Sass, Grid, Thème WP_files/03-nature.jpg" alt="" data-id="17" data-full-url="http://localhost/2020_veille/wp-content/uploads/2020/02/03-nature.jpg" data-link="http://localhost/2020_veille/page-d-exemple/female-shepherd-and-flock-of-sheep-at-a-foggy-sunrise-in-the-woods/" class="wp-image-17" srcset="http://localhost/2020_veille/wp-content/uploads/2020/02/03-nature.jpg 1024w, http://localhost/2020_veille/wp-content/uploads/2020/02/03-nature-300x200.jpg 300w, http://localhost/2020_veille/wp-content/uploads/2020/02/03-nature-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption class="blocks-gallery-item__caption">Female Shepherd and flock of sheep at a foggy sunrise in the woods</figcaption></figure></li><li class="blocks-gallery-item"><figure><img src="./Cours Veille – Git, Sass, Grid, Thème WP_files/04-nature.jpg" alt="" data-id="18" data-full-url="http://localhost/2020_veille/wp-content/uploads/2020/02/04-nature.jpg" data-link="http://localhost/2020_veille/page-d-exemple/girl-relaxing-on-hammock-at-sunset-by-the-beach/" class="wp-image-18" srcset="http://localhost/2020_veille/wp-content/uploads/2020/02/04-nature.jpg 1024w, http://localhost/2020_veille/wp-content/uploads/2020/02/04-nature-300x225.jpg 300w, http://localhost/2020_veille/wp-content/uploads/2020/02/04-nature-768x576.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption class="blocks-gallery-item__caption">Girl relaxing on hammock at sunset by the beach</figcaption></figure></li><li class="blocks-gallery-item"><figure><img src="./Cours Veille – Git, Sass, Grid, Thème WP_files/08-nature.jpg" alt="" data-id="20" data-full-url="http://localhost/2020_veille/wp-content/uploads/2020/02/08-nature.jpg" data-link="http://localhost/2020_veille/page-d-exemple/08-nature/" class="wp-image-20" srcset="http://localhost/2020_veille/wp-content/uploads/2020/02/08-nature.jpg 1024w, http://localhost/2020_veille/wp-content/uploads/2020/02/08-nature-300x200.jpg 300w, http://localhost/2020_veille/wp-content/uploads/2020/02/08-nature-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption class="blocks-gallery-item__caption">Low angle view of American football players confronting before the beginning of a match.</figcaption></figure></li><li class="blocks-gallery-item"><figure><img src="./Cours Veille – Git, Sass, Grid, Thème WP_files/07-nature.jpg" alt="" data-id="19" data-full-url="http://localhost/2020_veille/wp-content/uploads/2020/02/07-nature.jpg" data-link="http://localhost/2020_veille/page-d-exemple/07-nature/" class="wp-image-19" srcset="http://localhost/2020_veille/wp-content/uploads/2020/02/07-nature.jpg 1024w, http://localhost/2020_veille/wp-content/uploads/2020/02/07-nature-300x178.jpg 300w, http://localhost/2020_veille/wp-content/uploads/2020/02/07-nature-768x455.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption class="blocks-gallery-item__caption">Couple rowing kayak in beautiful mountain lake at twilight, floating on water with mistycal mood.</figcaption></figure></li></ul></figure>
+
+
+
+<p></p>
+
+
+
+<p class="rayure-grise"> Morbi non quam purus. Nulla facilisi. Aliquam et ipsum accumsan, molestie ligula quis, viverra enim. Fusce eget maximus odio. Ut a nunc ac nisi vulputate tempus a sed erat. Etiam id sodales urna, sed posuere leo. Nam sodales vel nunc a mattis. Donec sagittis at lectus sit amet ornare. Sed condimentum fermentum risus, eget imperdiet est laoreet vitae. Proin vel est a lectus feugiat semper. Proin lacinia leo quis leo interdum tempor et vel elit. </p>
+	</div><!-- .entry-content -->
+
+			<footer class="entry-footer">
+			<span class="edit-link"><svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><a class="post-edit-link" href="http://localhost/2020_veille/wp-admin/post.php?post=2&amp;action=edit">Modifier <span class="screen-reader-text">Le cours de veille</span></a></span>		</footer><!-- .entry-footer -->
+	</article><!-- #post-2 -->
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer">
+				<div class="site-info">
+										<a class="site-name" href="http://localhost/2020_veille/" rel="home">Cours Veille</a>,
+			http://localhost/2020_veille/			<a href="https://fr.wordpress.org/" class="imprint">
+							</a>
+								</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+
+</div><!-- #page -->
+
+<script src="./Cours Veille – Git, Sass, Grid, Thème WP_files/hoverintent-js.min.js.téléchargement"></script>
+<script src="./Cours Veille – Git, Sass, Grid, Thème WP_files/admin-bar.min.js.téléchargement"></script>
+<script src="./Cours Veille – Git, Sass, Grid, Thème WP_files/priority-menu.js.téléchargement"></script>
+<script src="./Cours Veille – Git, Sass, Grid, Thème WP_files/touch-keyboard-navigation.js.téléchargement"></script>
+<script src="./Cours Veille – Git, Sass, Grid, Thème WP_files/wp-embed.min.js.téléchargement"></script>
+	<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+	</script>
+		<!--[if lte IE 8]>
+		<script>
+			document.body.className = document.body.className.replace( /(^|\s)(no-)?customize-support(?=\s|$)/, '' ) + ' no-customize-support';
+		</script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+		<script>
+			(function() {
+				var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+						request = true;
+		
+				b[c] = b[c].replace( rcs, ' ' );
+				// The customizer requires postMessage and CORS (if the site is cross domain)
+				b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+			}());
+		</script>
+	<!--<![endif]-->
+			<div id="wpadminbar" class="nojq">
+							<a class="screen-reader-shortcut" href="http://localhost/2020_veille/#wp-toolbar" tabindex="1">Aller à la barre d’outils</a>
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Barre d’outils">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost/2020_veille/wp-admin/about.php"><span class="ab-icon"></span><span class="screen-reader-text">À propos de WordPress</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu"><li id="wp-admin-bar-about"><a class="ab-item" href="http://localhost/2020_veille/wp-admin/about.php">À propos de WordPress</a></li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu"><li id="wp-admin-bar-wporg"><a class="ab-item" href="https://fr.wordpress.org/">Site de WordPress-FR</a></li><li id="wp-admin-bar-documentation"><a class="ab-item" href="https://codex.wordpress.org/">Documentation</a></li><li id="wp-admin-bar-support-forums"><a class="ab-item" href="https://wpfr.net/support/">Forums de support</a></li><li id="wp-admin-bar-feedback"><a class="ab-item" href="https://wordpress.org/support/forum/requests-and-feedback">Remarque</a></li></ul></div></li><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost/2020_veille/wp-admin/">Cours Veille</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu"><li id="wp-admin-bar-dashboard"><a class="ab-item" href="http://localhost/2020_veille/wp-admin/">Tableau de bord</a></li></ul><ul id="wp-admin-bar-appearance" class="ab-submenu"><li id="wp-admin-bar-themes"><a class="ab-item" href="http://localhost/2020_veille/wp-admin/themes.php">Thèmes</a></li><li id="wp-admin-bar-widgets"><a class="ab-item" href="http://localhost/2020_veille/wp-admin/widgets.php">Widgets</a></li><li id="wp-admin-bar-menus"><a class="ab-item" href="http://localhost/2020_veille/wp-admin/nav-menus.php">Menus</a></li></ul></div></li><li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item" href="http://localhost/2020_veille/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%2F2020_veille%2F">Personnaliser</a></li><li id="wp-admin-bar-comments"><a class="ab-item" href="http://localhost/2020_veille/wp-admin/edit-comments.php"><span class="ab-icon"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text comments-in-moderation-text">0 commentaire en modération</span></a></li><li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost/2020_veille/wp-admin/post-new.php"><span class="ab-icon"></span><span class="ab-label">Créer</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu"><li id="wp-admin-bar-new-post"><a class="ab-item" href="http://localhost/2020_veille/wp-admin/post-new.php">Article</a></li><li id="wp-admin-bar-new-media"><a class="ab-item" href="http://localhost/2020_veille/wp-admin/media-new.php">Fichier média</a></li><li id="wp-admin-bar-new-page"><a class="ab-item" href="http://localhost/2020_veille/wp-admin/post-new.php?post_type=page">Page</a></li><li id="wp-admin-bar-new-user"><a class="ab-item" href="http://localhost/2020_veille/wp-admin/user-new.php">Utilisateur</a></li></ul></div></li><li id="wp-admin-bar-edit"><a class="ab-item" href="http://localhost/2020_veille/wp-admin/post.php?post=2&amp;action=edit">Modifier la page</a></li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu"><li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://localhost/2020_veille/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150"><label for="adminbar-search" class="screen-reader-text">Recherche</label><input type="submit" class="adminbar-button" value="Recherche"></form></div></li><li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="http://localhost/2020_veille/wp-admin/profile.php">Bonjour, <span class="display-name">root</span><img alt="" src="./Cours Veille – Git, Sass, Grid, Thème WP_files/0ead7b0069a6749d61b50fa9c5bb7a84.png" srcset="http://0.gravatar.com/avatar/0ead7b0069a6749d61b50fa9c5bb7a84?s=52&amp;d=mm&amp;r=g 2x" class="avatar avatar-26 photo" height="26" width="26"></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu"><li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://localhost/2020_veille/wp-admin/profile.php"><img alt="" src="./Cours Veille – Git, Sass, Grid, Thème WP_files/0ead7b0069a6749d61b50fa9c5bb7a84(1).png" srcset="http://0.gravatar.com/avatar/0ead7b0069a6749d61b50fa9c5bb7a84?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64"><span class="display-name">root</span></a></li><li id="wp-admin-bar-edit-profile"><a class="ab-item" href="http://localhost/2020_veille/wp-admin/profile.php">Modifier mon profil</a></li><li id="wp-admin-bar-logout"><a class="ab-item" href="http://localhost/2020_veille/wp-login.php?action=logout&amp;_wpnonce=8eef73288c">Se déconnecter</a></li></ul></div></li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://localhost/2020_veille/wp-login.php?action=logout&amp;_wpnonce=8eef73288c">Se déconnecter</a>
+					</div>
+
+		
+
+
+</body></html>
