@@ -29,17 +29,9 @@ header nav ul li {
 }
 
 @media screen and (max-width: 600px) {
-  .site_branding {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+  .site-title {
+    margin-right: 7em;
+    font-size: 25px;
   }
 }
 

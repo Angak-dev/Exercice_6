@@ -11,10 +11,9 @@ header nav ul li {
 }
 
 @media screen and (max-width: 600px) {
-    .site_branding {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        
+    
+    .site-title{
+        margin-right: 7em;
+        font-size: 25px;
     }
 }
