@@ -29,11 +29,11 @@ h1:not(.site-title):before, h2:before {
 }
 
 .premiereLettre::first-letter {
-  color: red;
+  color: lightblue;
 }
 
 .premiereLigne::first-line {
-  color: orange;
+  color: darkorange;
 }
 
 .ImageOmbrePortee {
